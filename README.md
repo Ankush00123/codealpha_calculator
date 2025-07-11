@@ -1,8 +1,8 @@
 # CodeAlpha_Calculator
 
-# 🧮 Basic Calculator
+# Basic Calculator
 
-## 📑 Features
+##Features
 - Perform basic arithmetic operations:
   - Addition (+)
   - Subtraction (-)
