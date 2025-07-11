@@ -1,0 +1,126 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #9f8f71;
+}
+
+.calculator
+{
+    padding: 20px;
+    background-color: #2a2a2a;
+    border: 1px solid #444;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+
+.display input
+{
+    display: flex;
+    width: 240px;
+    font-size: 30px;
+    text-align: right;
+    background-color: #222;
+    color: #dadada;
+    border: none;
+    border-radius: 10px;
+}
+
+#expressionDisplay
+{
+    font-size: 36px;
+    height: 50px;
+    border-radius: 10px 10px 0 0;
+}
+#realTimeResultDisplay
+{
+    font-size: 24px;
+    height: 35px;
+    border-radius: 0 0 10px 10px;
+}
+
+.button-grid
+{
+    display: grid;
+    grid-template-columns: repeat(4,50px);
+    grid-gap: 10px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin-top: 15px;
+}
+button
+{
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 15px;
+    transition: all 0.2s ease;
+} 
+
+.number_button
+{
+    color: #eee;
+    background-color: #333;
+}
+
+.operator_button
+{
+    color: #222;
+    background-color: #ff8f22;
+}
+
+.function_button
+{
+    color: #ddd;
+    background-color: #222;
+}
+
+button:hover
+{
+    transform: scale(1.05);
+}
+
+button:active
+{
+    transform: scale(0.95);
+}
+
+.function_button:hover
+{
+    background-color: #232324;
+    box-shadow: 0px 5px 10px #202020;
+}
+.function_button:active
+{
+    background-color: #1d1d1d;
+    box-shadow: 0px 5px 10px #0a0a0a;
+}
+
+.operator_button:hover
+{
+    background-color: #ff8f31;
+    box-shadow: 0px 5px 10px #ff8f20;
+}
+.operator_button:active
+{
+    background-color: #ff7f11;
+    box-shadow: 0px 5px 10px #ff6f00;
+}
+
+.number_button:hover
+{
+    background-color: #3f3f3f;
+    box-shadow:0px 5px 10px #313131;
+}
+.number_button:active
+{
+    background-color: #2c2c2c;
+    box-shadow:0px 5px 10px #212121;
+}
